@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "api-operation-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/apiOperation/ApiOperationWebPart.js",
+          "manifest": "./src/webparts/apiOperation/ApiOperationWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ApiOperationWebPartStrings": "lib/webparts/apiOperation/loc/{locale}.js"
+  }
+}

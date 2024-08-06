@@ -1,0 +1,48 @@
+.Button{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(213, 121, 172);
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: bold;
+  }
+.Button1{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(78, 78, 240);
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: bold;
+  }
+.Button2{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(211, 235, 77);
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+  }
+.Button3{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(197, 78, 35);
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+  }
+.Button4{
+    height: 50px;
+    width: 120px;
+    background-color: rgb(25, 25, 26);
+    color: whitesmoke;
+    font-size: 10px;
+    font-weight: bold;
+  }
+.Button5{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(10, 101, 42);
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: bold;
+  }
