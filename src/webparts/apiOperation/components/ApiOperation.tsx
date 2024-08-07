@@ -1,7 +1,8 @@
 import * as React from 'react';
 import styles from './ApiOperation.module.scss';
 import type { IApiOperationProps } from './IApiOperationProps';
-import GraphAPI from './GraphAPI';
+//import GraphAPI from './GraphAPI';
+import OutLookAPI from './OutLookAPI';
 //import API from './API'
 
 
@@ -15,8 +16,9 @@ export default class ApiOperation extends React.Component<IApiOperationProps, {}
     return (
       <section className={`${styles.apiOperation}`}>
        <p className={`${styles.Primary}`}>API Operation</p>
-       {/*<API context={this.props.context}/>*/}
-       <GraphAPI/>
+       {/*<API context={this.props.context}/>
+       <GraphAPI/>*/}
+       <OutLookAPI/>
 
       </section>
     );
